@@ -1,0 +1,22 @@
+// general-variabels
+$danger-color: #dc3545;
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.form-group {
+  &.invalid {
+    color: $danger-color;
+
+    input {
+      border-color: $danger-color;
+    }
+  }
+}
+
+.manage-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
